@@ -1,0 +1,242 @@
+#logos {
+    margin-top: 10vh;
+    width: 100%;
+}
+
+#logos p {
+width: 90%;
+padding-left: 5%;
+font-weight: bolder;
+font-size: 1.5em;
+}
+#logo-hold {
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+}
+.logo-div {
+width: 15%;
+margin-right: 1.5%;
+}
+.logo-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#fully {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 15vh;
+    font-weight: bolder;
+}
+.fully-text {
+    font-size: 4em;
+    text-align: justify;
+    line-height: 80%;
+}
+#feature-hold {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    height: 100vh;
+    margin-top: 10vh;
+    font-size: 1.2em;
+    align-items: center;  
+}
+
+#feature-text {
+    width: 32.5%;
+    margin-right: 2%;
+}
+#phone-hold {
+width: 32.5%;
+height: 95vh;
+background-image: url(https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/30/posts/26768/image/journal-3.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-right: 2%;
+border-radius: 10px;
+box-shadow: 0px 0px 20px gray;
+}
+#accept-div {
+    width: 32.5%;
+}
+#build {
+    background-color: #f3f3f3;
+    padding: 5vh 0 5vh 0;
+}
+
+#build-text {
+margin-left: 5%
+}
+
+#multi-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#store-div {
+    display: flex;
+    width: 90%;
+    margin: 5%;
+}
+#store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    width: 50%;
+    font-size: 1.5em;
+} 
+#store button {
+    height: 10%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+    color: white;
+    margin-bottom: 20vh;
+}
+#store-pic {
+    height: 80vh;
+    width: 50%;
+    background-image: url("https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#invoice-div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: -25vh 5% 10vh 5%;
+}
+#invoice-pic {
+    width: 55%;
+    height: 80vh;
+    background-image: url("https://cdn.filestackcontent.com/resize=width:700/output=format:webp/lc5K7jXVQiS9jBWmcdKg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#invoice {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+#lets {
+    font-size: 5em;
+}
+
+#lets-but {
+    margin-left: 5%; 
+    width: 20%; 
+    height: 8vh; 
+    border-radius: 10px; 
+    color: white; 
+    background-color: #0a0a0a;
+}
+
+@media (max-width: 1000px) {
+    #fully {
+        width: 90%;
+    }
+    .fully-text {
+        font-size: 3em;
+        text-align: justify;
+        line-height: 80%;
+    }
+  #feature-hold {
+    flex-direction: column;
+    height: 150vh;
+  }
+  #feature-text {
+    width: 100%;
+    margin: 0 0 5% 0;
+  }
+  #phone-hold {
+    width: 100%;
+    height: 80vh;
+    margin: 0 0 5% 0;
+  }
+  #accept-div {
+    width: 100%;
+    margin: 0 0 5% 0;
+}
+#multi-div {
+    display: block;
+    width: 100%;
+}
+#store-div {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+#store {
+    display: block;
+    width: 100%;
+    height: 35vh;
+    font-size: 1.5em;
+} 
+#store button {
+    height: 15%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+    color: white;
+    margin-bottom: 20vh;
+}
+#store-pic {
+    height: 40vh;
+    width: 100%;
+    background-image: url("https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#invoice-div {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 5vh 5% 5vh 5%;
+}
+#invoice-pic {
+    width: 100%;
+    height: 40vh;
+    background-image: url("https://cdn.filestackcontent.com/resize=width:700/output=format:webp/lc5K7jXVQiS9jBWmcdKg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#invoice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 5vh;
+}
+h1 {
+    width: 90%;
+    margin: 0 5% 5vh 5%;
+    font-size: 2rem;
+    word-wrap: break-word;
+    font-family: "Sofia" sans-serif;
+}
+#lets {
+    font-size: 2em;
+}
+#lets-but { 
+    width: 40%; 
+    height: 10vh; 
+    border-radius: 10px; 
+    color: white; 
+    background-color: #0a0a0a;
+    border: none;
+}
+
+
+}

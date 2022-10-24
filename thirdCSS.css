@@ -1,0 +1,260 @@
+#holders {
+width: 100%;
+background-color: #0d0d0d;
+margin-top: 20vh;
+}
+#create {
+    width: 90%;
+    padding: 10% 5% 0 5%;
+}
+#create h4 {
+    width: 50%;
+    text-align: center;
+    color: purple;
+    font-size: 2rem;
+    margin: auto;
+}
+#create p {
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 4vh;
+}
+
+#create button {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 4vh;
+}
+#card-holder {
+    width: 100%;
+    height: 50vh;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 40%;
+    height: 80%;
+    display: block;
+    margin: auto;
+    background-color: #313131;
+    border-radius: 10px;
+    position: absolute;
+    border: 0.2px groove gray;
+    transition: 1s;
+}
+.card1 {
+z-index: 100;
+}
+.card2 {
+    z-index: 50;
+    width: 35%;
+    top: 5%;
+    }
+    .glow {
+        display: block;
+        margin: 10% 15% 10% 15%;
+        width: 70%;
+        height: 70%;
+        background-color: rgba(255, 255, 255, 0.2);
+        filter: blur(10px);
+    }
+    .card3 {
+        z-index: 20;
+        width: 30%;
+        top: 10%;
+        }
+        .card4 {
+            z-index: 10;
+            width: 25%;
+            top: 15%;
+            }
+
+.wifi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    transform: rotate(90deg);
+    color: wheat;
+}
+.card-no {
+    position: absolute;
+    height: 2opx;
+    width: 50%;
+    font-size: 0.8rem;
+    left: 5%;
+    bottom: 15%;
+    color: wheat;
+}
+.card-name {
+    position: absolute;
+    height: 2opx;
+    width: 40%;
+    font-size: 0.8rem;
+    left: 5%;
+    bottom: 5%;
+    color: wheat;
+} 
+.master {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 5%;
+    bottom: 5%;
+}
+.master img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.words-hold {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    margin: 10% 5%;
+    position: relative;
+}
+
+.words {
+position: absolute;
+width: 50%;
+height: 200px;
+background-color: #313131;
+border: 1px groove gray;
+border-radius: 10px;
+box-shadow: 0 0 20px black;
+color: white;
+transition: 1s;
+}
+.words h6 {
+    width: 90%;
+    margin: 5% 5%;
+    margin-left: 5%;
+    font-size: 1rem;
+    height: 10%;
+}
+.words p {
+    width: 90%;
+    margin: 0 5% 2%;
+    height: 70%;
+    height: 1rem;
+}
+.word1 {
+    z-index: 50;
+}
+.word2 {
+    left: 25%;
+    z-index: 100;
+}
+.word3 {
+    left: 50%;
+    z-index: 150;
+}
+@media (max-width: 1000px) {
+    #create {
+        width: 90%;
+        padding: 25% 5% 0 5%;
+    }
+    #create h4 {
+        width: 100%;
+        text-align: center;
+        color: purple;
+        font-size: 2rem;
+        margin: auto;
+    }
+    #create p {
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin: auto;
+        font-size: 1.5rem;
+        margin-top: 10%;
+    }
+    #create button {
+        display: block;
+        background-color: white;
+        border-radius: 10px;
+        width: 60%;
+        height: 10vh;
+        margin: auto;
+        margin-top: 4vh;
+    }
+    .card {
+        width: 90%;
+        height: 60%;
+        display: block;
+        margin: auto;
+        background-color: #313131;
+        border-radius: 10px;
+        position: absolute;
+        border: 0.2px groove gray;
+        transition: 1s;
+    } .card1 {
+        z-index: 100;
+        }
+        .card2 {
+            z-index: 50;
+            width: 80%;
+            top: 3%;
+            }
+            .card3 {
+                z-index: 20;
+                width: 70%;
+                top: 6%;
+                }
+                .card4 {
+                    z-index: 10;
+                    width: 60%;
+                    top: 9%;
+                    }
+                    .words-hold {
+                        width: 90%;
+                        height: 130vh;
+                        display: flex;
+                        flex-direction: column;
+                        margin: 10% 5%;
+                        position: relative;
+                    }
+                    
+                    .words {
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: 38vh;
+                    background-color: #313131;
+                    border: 1px groove gray;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px black;
+                    color: wheat;
+                    transition: 1s;
+                    z-index: 0;
+                    left: 0;
+                    margin-bottom: 20px;
+                    }
+                    .words h6 {
+                        width: 90%;
+                        margin: 5% 5%;
+                        margin-left: 5%;
+                        font-size: 1rem;
+                        height: 10%;
+                        font-weight: bolder;
+                    }
+                    .words p {
+                        width: 90%;
+                        margin: 0 5% 2%;
+                        height: 70%;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        line-height: 150%;
+                    }
+    
+}
